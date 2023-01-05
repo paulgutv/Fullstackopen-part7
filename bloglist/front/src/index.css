@@ -1,0 +1,321 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+  color: green;
+  font-style: italic;
+}
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.title__style {
+  @apply
+  mt-6
+  text-center
+  text-3xl
+  font-bold
+  tracking-tight
+  text-gray-900
+}
+
+.subtitle__style {
+  @apply
+  mt-6
+  text-center
+  text-2xl
+  tracking-tight
+  text-gray-500
+}
+
+.container__style {
+  @apply
+  flex
+  min-h-full
+  items-center
+  justify-center
+  py-12
+  px-4
+  sm:px-6
+  lg:px-8
+}
+
+.subcontainer__style {
+  @apply
+  w-full
+  max-w-md
+  space-y-8
+}
+
+.cancel__style {
+  @apply
+  font-medium
+  text-indigo-600
+  hover:text-indigo-500  
+}
+
+.cancel__containerStyle {
+  @apply
+  mt-2
+  text-center
+  text-sm
+}
+
+.button__style {
+  @apply
+  relative
+  flex
+  w-full
+  justify-center
+  rounded-md
+  border
+  border-transparent
+  bg-indigo-600
+  py-2
+  px-4
+  text-sm
+  font-medium
+  text-white
+  hover:bg-indigo-700
+  focus:outline-none
+  focus:ring-2
+  focus:ring-indigo-500
+  focus:ring-offset-2
+}
+
+/* navBar */
+
+.nav__container {
+  @apply
+  bg-gray-800
+}
+
+.nav__subcontainer {
+  @apply
+  mx-auto
+  max-w-7xl
+  px-2
+  sm:px-6
+  lg:px-8
+}
+
+.nav__flexContainer {
+  @apply
+  relative
+  flex
+  h-16
+  items-center
+  justify-between
+}
+
+.nav__optionsContainer {
+  @apply
+  flex
+  space-x-4
+}
+
+.nav__logout {
+  @apply
+  bg-gray-700
+  text-white
+  px-3
+  py-2
+  rounded-md
+  text-sm
+  hover:text-gray-700
+  hover:bg-white
+}
+
+.nav__activeButton {
+  @apply
+  text-white
+  active:bg-violet-700
+  focus:bg-violet-700
+  px-3
+  py-2
+  rounded-md
+  text-sm
+  font-medium
+  bg-violet-700
+}
+
+.nav__optionButton {
+  @apply
+  text-gray-300
+  hover:bg-gray-700  
+  hover:text-white
+  active:bg-violet-700
+  focus:bg-violet-700
+  px-3
+  py-2
+  rounded-md
+  text-sm
+  font-medium
+}
+
+/* Login */
+
+.login__container {
+  @apply
+  flex
+  min-h-full
+  items-center
+  justify-center
+  py-12
+  px-4
+  sm:px-6
+  lg:px-8
+}
+
+.login__subcontainer {
+  @apply
+  w-full
+  max-w-md
+  space-y-8
+}
+
+.form__style {
+  @apply
+  mt-8
+  space-y-6
+}
+
+.input__containerStyle {
+  @apply
+  -space-y-px
+  rounded-md
+  shadow-sm
+}
+
+.label__style {
+  @apply
+  sr-only
+}
+
+.input__firstStyle {
+  @apply
+  relative
+  block
+  w-full
+  appearance-none
+  rounded-none
+  rounded-t-md
+  border
+  border-gray-300
+  px-3
+  py-2
+  text-gray-900
+  placeholder-gray-500
+  focus:z-10
+  focus:border-indigo-500
+  focus:outline-none
+  focus:ring-indigo-500
+  sm:text-sm
+}
+
+.input__mediumStyle {
+  @apply
+  relative
+  block
+  w-full
+  appearance-none
+  rounded-none
+  border
+  border-gray-300
+  px-3
+  py-2
+  text-gray-900
+  placeholder-gray-500
+  focus:z-10
+  focus:border-indigo-500
+  focus:outline-none
+  focus:ring-indigo-500
+  sm:text-sm
+}
+
+.input__lastStyle {
+  @apply
+  relative
+  block
+  w-full
+  appearance-none
+  rounded-none
+  rounded-b-md
+  border
+  border-gray-300
+  px-3
+  py-2
+  text-gray-900
+  placeholder-gray-500
+  focus:z-10
+  focus:border-indigo-500
+  focus:outline-none
+  focus:ring-indigo-500
+  sm:text-sm
+}
+
+/* List */
+
+.list__container {
+  @apply
+  flex
+  min-h-full
+  items-center
+  justify-center
+  py-1
+  px-4
+  sm:px-6
+  lg:px-8
+  text-center
+}
+
+.list__subcontainer {
+  @apply
+  w-full
+  max-w-md
+  space-y-8
+  hover:bg-gray-500
+  hover:text-white
+}
+
+/* Like */
+
+.like__button {
+  @apply
+  relative
+  justify-center
+  rounded-md
+  border
+  border-transparent
+  bg-indigo-600
+  py-1
+  px-3
+  mx-2
+  text-sm
+  font-medium
+  text-white
+  hover:bg-indigo-700
+  focus:outline-none
+  focus:ring-2
+  focus:ring-indigo-500
+  focus:ring-offset-2
+}
